@@ -37,6 +37,7 @@ def do_all():
 while 1:
    try:
        do_all()
+       time.sleep(60)
    except Exception as ex:
        print(ex)
        continue
